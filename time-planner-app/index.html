@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/input.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/56705d3fd7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    
+<nav class="bg-white block fixed top-0 w-full z-30 shadow-md border-gray-200 dark:bg-gray-900">
+    <div class="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto p-4">
+        <a href="https://flowbite.com" class="flex items-center">
+            <img src="img/logo.png" class="h-8 mr-3" alt="Flowbite Logo" />
+            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">AppAMP Theme</span>
+        </a>
+        <div class="flex items-center md:order-2">
+            <a href="#" class="max-md:hidden text-gray-800 font-bold text-blue-500 border border-blue-600 border-2 hover:bg-blue-600 transition hover:shadow-xl shadow-blue-200 hover:text-white dark:text-white  font-medium rounded-lg text-sm px-4 py-2 md:px-5 md:py-2.5 mr-1 md:mr-2 dark:hover:bg-gray-700">Buy Now</a>
+           
+            <button data-collapse-toggle="mega-menu" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none  dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mega-menu" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                </svg>
+            </button>
+        </div>
+        <div id="mega-menu" class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 max-md:relative  ">
+            <ul  class="block z-20 bg-white flex flex-col mt-4 font-medium md:flex-row md:space-x-8 md:mt-0 max-md:w-1/3 max-md:absolute max-md:right-0 max-md:border-2 max-md:border-gray-100 max-md:p-3 max-md:rounded-md">
+                <li>
+                    <a href="#img-section" class="block py-2 pl-3 pr-4 text-blue-600 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-blue-500 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page">Home</a>
+                </li>
+                <li>
+                    <a href="#video-section" class="block py-2 pl-3 pr-4 text-blue-600 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-blue-500 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page">Video Section</a>
+                </li> <li>
+                    <a href="#service-section" class="block py-2 pl-3 pr-4 text-blue-600 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-blue-500 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page">Services</a>
+                </li>
+                <li>
+                    <a href="#plan-section" class="block py-2 pl-3 pr-4 text-blue-600 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-blue-500 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page">Pricing</a>
+                </li>
+                
+                <li>
+                    <a href="#team-section" class="block py-2 pl-3 pr-4 text-blue-600 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-blue-500 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page">Team</a>
+                </li>
+                          
+                    <li>
+                        <a href="#" class="max-md:block min-[765px]:hidden max-xl:hidden xl:hidden text-gray-800 font-bold text-blue-500 border border-blue-600 border-2 hover:bg-blue-600 transition hover:shadow-xl shadow-blue-200 mt-4 hover:text-white dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 py-2 md:px-5 md:py-2.5 mr-1 md:mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">Buy Now</a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="img-section" class="img-section w-full h-[585px] -z-10">
+    <div class="img-class w-full  h-full relative flex justify-center items-center">
+        <img src="img/mbr-4.jpg" class="w-full h-full" alt="">
+        <div class="overlay absolute w-full h-full bg-black opacity-50"></div>
+        <div class="middle-section absolute flex flex-col  justify-center items-center">
+            <h3 class="text-white text-3xl mb-9">Created to save your time</h3>
+            <h1 class="text-white text-6xl font-bold mb-12">Time Planner App</h1>
+            <div class="btn-secton flex p-2">
+                <button class="flex items-center text-gray-400 text-xl mr-4  hover:bg-blue-500 transition border-none hover:text-white bg-white p-4 border rounded-lg font-semibold"><i class="fa-brands fa-android mr-3"></i> Google Play</button>
+                <button class="flex items-center text-gray-400 text-xl border-none hover:bg-blue-500 transition hover:text-white bg-white p-4 border rounded-lg font-semibold"><i class="fa-brands fa-apple mr-3"></i>App Store</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="video-section" class="video-section flex bg-gray-100 w-auto h-auto p-24 px-32 max-xl:flex-wrap">
+    <div class="video  max-xl:order-2 max-xl:my-11"> 
+        <iframe class="max-xl:w-[70vw] max-xl:h-[40vh]" width="560" height="315" src="https://www.youtube.com/embed/7MnP25BL-wI?si=VuwcpUGY5NMJsU4x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="text-container px-12 max-xl:px-0 ">
+        <p class="text-5xl -tracking-tighter mb-4">Watch a video on how to use our app</p>
+        <p class="text-xl text-gray-500">It’s not just about recording employee hours. It’s about understanding employee availability. It’s about hitting project deadlines — while staying on budget. It’s knowing you’ll never have to update another Excel spreadsheet. It’s about making things easy. It’s giving your team the tools they need to do their jobs well. And the insights to work more effectively than ever before.</p>
+    </div>
+</div>
+
+<div id="service-section" class="service-section flex flex-col p-24 px-32">
+    <div class="secton-part1 flex flex-col justify-center items-center w-full h-auto">
+        <p class="max-sm:text-4xl text-center text-5xl font-bold">Learn more about our application</p>
+        <p class="max-sm:text-2xl text-center text-3xl text-gray-600 mt-5 font-thin">Track time without wasting a second</p>
+    </div>
+    <div class="section-part-2 mt-14 ">
+        <div class="row-1 flex w-full max-md:space-x-0 mb-5   max-md:flex max-md:flex-col md:space-x-4">
+            <div class="cardview ">
+                <div class="img-secton "><i class="card-header-img fa-solid  fa-computer "></i></div>
+                <div class="text-section ml-3">
+                    <p class="card-header">Time Tracking</p>
+                    <p class="card-header2">Accurate and simple time tracking. Task-based estimation</p>
+                </div>
+            </div> 
+            <div class="cardview ">
+                <div class="img-secton "><i class="card-header-img fa-solid  fa-share "></i></div>
+                <div class="text-section ml-3 ">
+                    <p class="card-header">Resource Planning </p>
+                    <p class="card-header2">Monitor team’s utilization across different projects</p>
+                </div>
+            </div>
+            <div class="cardview ">
+                <div class="img-secton "><i class="card-header-img fa-solid  fa-chrome "></i></div>
+                <div class="text-section ml-3 ">
+                    <p class="card-header">Integrations</p>
+                    <p class="card-header2">Track time inside the most popular project management tools</p>
+                </div>
+            </div>
+        </div>
+        <div class="row-2 flex w-full max-md:space-x-0  max-md:flex max-md:flex-col md:space-x-4 ">
+            <div class="cardview ">
+                <div class="img-secton "><i class="card-header-img fa-solid  fa-computer "></i></div>
+                <div class="text-section ml-3">
+                    <p class="card-header">Task Management</p>
+                    <p class="card-header2">
+                    <p class="card-header2">
+                        Task Management
+                        Create tasks, track time </p>
+                </div>
+            </div>
+            <div class="cardview ">
+                <div class="img-secton "><i class="card-header-img fa-solid  fa-share "></i></div>
+                <div class="text-section ml-3">
+                    <p class="card-header">
+                        Reporting</p>
+                    <p class="card-header2">Highly flexible reports to analyze time the way you want</p>
+                </div>
+            </div>
+            <div class="cardview ">
+                <div class="img-secton "><i class="card-header-img fa-solid  fa-chrome "></i></div>
+                <div class="text-section ml-3">
+                    <p class="card-header">
+                        Invoicing</p>
+                    <p class="card-header2">Create invoices from time entries and send them to your clients</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="plan-section" class="plan-section p-14 bg-blue-50 px-32">
+    <div class="plan-part1 text-center">
+        <p class="text-5xl">Start using our app today</p>
+        <p class="text-2xl font-light mt-4">Set of tools to seamlessly manage projects during their entire life cycle</p>
+    </div>
+    <div class="plan-part2 mt-10 flex space-x-5 max-md:flex-col  max-xl:flex-wrap md:space-x-3 max-xl:space-x-0   ">
+        <div class="plan-section  max-md:w-full bg-white w-1/3 flex flex-col shadow-lg md:w-[47%] mb-4">
+            <div class="plan-section-part1 md:w-full hover:bg-blue-500 rounded-md border divide-b-4 border-blue-100 hover:transition-all hover:text-white  p-10">
+                <p class="text-2xl">Free Version</p>
+                <div class="texttt flex font-bold items-end tracking-wide my-5"> <p class="text-5xl">$ 0 </p><p class="text-3xl">/ month</p></div>
+                <p class="text-2xl mb-3">Who is this for?</p>
+                <p class="text-2xl font-light">Free version for students and regular users</p>
+            </div>
+            <div class="plan-section-part2  px-10 py-11 rounded-md hover: ">
+                <div class="section-items flex items-center space-x-3 mb-8">
+                    <i class="fa-solid fa-check text-blue-500 text-3xl"></i>
+                    <p class="text-xl">Time Tracking</p>
+                </div>
+                <div class="section-items flex items-center space-x-3 mb-8">
+                    <i class="fa-solid fa-check text-blue-500 text-3xl"></i>
+                    <p class="text-xl">Resource Planning</p>
+                </div>  
+                <div class="section-items flex items-center space-x-3 mb-8">
+                    <i class="fa-solid fa-xmark text-blue-500 text-3xl"></i>
+                    <p class="text-xl">Integrations</p>
+                </div>
+                <div class="section-items flex items-center space-x-3 mb-8">
+                    <i class="fa-solid fa-xmark text-blue-500 text-3xl"></i>
+                    <p class="text-xl"> Task Management</p>
+                </div>
+                <div class="section-items flex items-center space-x-3 mb-8">
+                    <i class="fa-solid fa-xmark text-blue-500 text-3xl"></i>
+                    <p class="text-xl">Reporting</p>
+                </div>
+                <div class="section-items flex items-center space-x-3 mb-5">
+                    <i class="fa-solid fa-xmark text-blue-500 text-3xl"></i>
+                    <p class="text-xl">Invoicing</p>
+                </div>
+
+                <button class="my-8 px-4 text-xl w-full font-semibold rounded-lg py-5 bg-white shadow-2xl hover:bg-blue-500 hover:text-white hover:transition">Get Free Now</button>
+            </div>
+
+        </div>
+
+        <div class="plan-section bg-white  max-md:w-full w-1/3 flex flex-col shadow-lg  md:w-[47%] mb-4">
+            <div class="plan-section-part1  hover:bg-blue-500 rounded-md border divide-b-4 border-blue-100 hover:transition-all hover:text-white  p-10">
+                <p class="text-2xl">User</p>
+                <div class="texttt flex font-bold items-end tracking-wide my-5"> <p class="text-5xl">$ 10 </p><p class="text-3xl">/ month</p></div>
+                <p class="text-2xl mb-3">Who is this for?</p>
+                <p class="text-2xl font-light">The version for business people having a tight schedule</p>
+            </div>
+            <div class="plan-section-part2  px-10 py-11 rounded-md hover: ">
+                <div class="section-items flex items-center space-x-3 mb-8">
+                    <i class="fa-solid fa-check text-blue-500 text-3xl"></i>
+                    <p class="text-xl">Time Tracking</p>
+                </div>
+                <div class="section-items flex items-center space-x-3 mb-8">
+                    <i class="fa-solid fa-check text-blue-500 text-3xl"></i>
+                    <p class="text-xl">Resource Planning</p>
+                </div>  
+                <div class="section-items flex items-center space-x-3 mb-8">
+                    <i class="fa-solid fa-check text-blue-500 text-3xl"></i>
+                    <p class="text-xl">Integrations</p>
+                </div>
+                <div class="section-items flex items-center space-x-3 mb-8">
+                    <i class="fa-solid fa-check text-blue-500 text-3xl"></i>
+                    <p class="text-xl"> Task Management</p>
+                </div>
+                <div class="section-items flex items-center space-x-3 mb-8">
+                    <i class="fa-solid fa-xmark text-blue-500 text-3xl"></i>
+                    <p class="text-xl">Reporting</p>
+                </div>
+                <div class="section-items flex items-center space-x-3 mb-5">
+                    <i class="fa-solid fa-xmark text-blue-500 text-3xl"></i>
+                    <p class="text-xl">Invoicing</p>
+                </div>
+
+                <button class="my-8 px-4 text-xl w-full font-semibold rounded-lg py-5 bg-white shadow-2xl hover:bg-blue-500 hover:text-white hover:transition">Buy Now</button>
+            </div>
+
+        </div>
+
+        <div class="plan-section bg-white  max-md:w-full w-1/3 flex flex-col shadow-lg  md:w-[47%] mb-4">
+            <div class="plan-section-part1  hover:bg-blue-500 rounded-md border divide-b-4 border-blue-100 hover:transition-all hover:text-white  p-10">
+                <p class="text-2xl">Pro</p>
+                <div class="texttt flex font-bold items-end tracking-wide my-5"> <p class="text-5xl">$ 15 </p><p class="text-3xl">/ month</p></div>
+                <p class="text-2xl mb-3">Who isMaximum version for large companies                </p>
+            </div>
+            <div class="plan-section-part2  px-10 py-11 rounded-md hover: ">
+                <div class="section-items flex items-center space-x-3 mb-8">
+                    <i class="fa-solid fa-check text-blue-500 text-3xl"></i>
+                    <p class="text-xl">Time Tracking</p>
+                </div>
+                <div class="section-items flex items-center space-x-3 mb-8">
+                    <i class="fa-solid fa-check text-blue-500 text-3xl"></i>
+                    <p class="text-xl">Resource Planning</p>
+                </div>  
+                <div class="section-items flex items-center space-x-3 mb-8">
+                    <i class="fa-solid fa-xmark text-blue-500 text-3xl"></i>
+                    <p class="text-xl">Integrations</p>
+                </div>
+                <div class="section-items flex items-center space-x-3 mb-8">
+                    <i class="fa-solid fa-xmark text-blue-500 text-3xl"></i>
+                    <p class="text-xl"> Task Management</p>
+                </div>
+                <div class="section-items flex items-center space-x-3 mb-8">
+                    <i class="fa-solid fa-xmark text-blue-500 text-3xl"></i>
+                    <p class="text-xl">Reporting</p>
+                </div>
+                <div class="section-items flex items-center space-x-3 mb-5">
+                    <i class="fa-solid fa-xmark text-blue-500 text-3xl"></i>
+                    <p class="text-xl">Invoicing</p>
+                </div>
+
+                <button class="my-8 px-4 text-xl w-full font-semibold rounded-lg py-5 bg-white shadow-2xl hover:bg-blue-500 hover:text-white hover:transition">Buy Now</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="team-section" class="team-section">
+    <div class="team-part1 my-20">
+        <p class="text-4xl font-semibold w-full text-center">Our team is constantly trying for you</p>
+    </div>
+    <div class="team-part2 mx-32 mb-20 flex space-x-6 ">
+        <div class="team-card shadow-xl w-1/4 cursor-pointer hover:shadow-blue-100 transition ">
+            <div class="card-part1 ">
+                <img class="w-full" src="img/img1.jpg" alt="">
+            </div>
+            <div class="card-part2 p-6">
+                <p class="font-semibold text-xl">Jason Doe</p>
+                <p class="font-extralight text-xl">Programmer</p>
+            </div>
+        </div>
+        <div class="team-card shadow-xl w-1/4 cursor-pointer hover:shadow-blue-100 transition">
+            <div class="card-part1 ">
+                <img class="w-full" src="img/img2.jpg" alt="">
+            </div>
+            <div class="card-part2 p-6">
+                <p class="font-semibold text-xl">Amanda Swon</p>
+                <p class="font-extralight text-xl">Designer</p>
+            </div>
+        </div>
+        <div class="team-card shadow-xl w-1/4 cursor-pointer hover:shadow-blue-100 transition">
+            <div class="card-part1 ">
+                <img class="w-full" src="img/img3.jpg" alt="">
+            </div>
+            <div class="card-part2 p-6">
+                <p class="font-semibold text-xl">Andrew Smith</p>
+                <p class="font-extralight text-xl">Support</p>
+            </div>
+        </div>
+        <div class="team-card shadow-xl w-1/4 cursor-pointer hover:shadow-blue-100 transition">
+            <div class="card-part1 ">
+                <img class="w-full" src="img/img4.jpg" alt="">
+            </div>
+            <div class="card-part2 p-6">
+                <p class="font-semibold text-xl">Jane Olsen</p>
+                <p class="font-extralight text-xl">Manager</p>
+            </div>  
+        </div>
+    </div>
+</div>
+
+<div class="newsletter_section w-full h-[400px] flex justify-center items-center flex-col bg-blue-50">
+    <p class="font-extralight text-2xl mb-8">Keep up to date with the latest updates</p>
+    <p class="text-5xl font-semibold mb-10">Subscribe to our newsletter</p>
+    <div class="newletter_input w-full flex justify-center items-center">
+        <input style="width: 21rem;" class="text-xl p-4 px-6 shadow-lg font-extralight outline-none border border-2 rounded-md " placeholder="E-mail Address" type="email" name="email" id="">
+        <button style="width: 12rem;" class="cursor-pointer text-white font-semibold text-xl rounded-md p-4 ml-4 bg-blue-500 border border-2 border-blue-500 hover:bg-white hover:text-blue-500 transition-all hover:shadow-2xl" type="button">Subscribe</button>
+    </div>
+</div>
+<div class="w-full space-x-10 px-28 py-24 flex ">
+    <div class="prt-1 w-1/2">
+        <p class="text-5xl mb-20 font-semibold">What's new?</p>
+        <div class="card hover:shadow-blue-100 hover:shadow-xl transition-all rounded-md flex shadow-xl">
+            <div class="imgpart">
+                <img src="img/p1.jpg" class="rounded-l-md" width="600px" alt="">
+            </div>
+            <div class="text-part p-9">
+                <p class="text-xl mb-4">Reporting</p>
+                <p class="text-xl font-extralight">Highly flexible reports to analyze time the way you want</p>
+            </div>
+        </div>
+    </div>
+    <div class="prt-2 w-1/2">
+        <p class="text-[1.4rem] text-gray-500 mb-11">Accurate employee time tracking software for reporting, invoicing and painless payroll. Trusted by over 2,000 businesses in more than 70 countries. </p>
+        <div class="card hover:shadow-blue-100 hover:shadow-xl transition-all rounded-md flex shadow-xl">
+            <div class="imgpart">
+                <img src="img/p2.jpg" class="rounded-l-md h-full" width="600px" alt="">
+            </div>
+            <div class="text-part p-9">
+                <p class="text-xl mb-4">
+                    Invoicing</p>
+                <p class="text-xl font-extralight">Create invoices from time entries and send them to your clients</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="feedback bg-blue-50">
+    <p class="pt-16 font-light text-center text-2xl">Feedback from our users</p>
+    <p class="py-8 pb-20 text-center text-5xl">What do users say about our application</p>
+    <div class="cardss pb-12 px-32 flex space-x-6">
+        <div class="card w-1/3">
+            <p class="bg-white relative shadow-xl p-14 font-light text-2xl text-gray-500 shadow-blue-200 rounded-md">
+                Effectively manages time to complete work in less time than estimated
+                Always makes the best use of time</p>
+            <div class="user my-10 flex items-center justify-center w-full">
+                <img src="img/img1.jpg" width="70px" class="rounded-full" alt="">
+                <div class="ml-8 name">
+                    <p class="text-xl"> Jason Doe</p>
+                    <p class="font-light text-lg">User</p>
+                </div>
+            </div>
+        </div>
+        <div class="card w-1/3">
+            <p class="bg-white relative shadow-xl p-14 font-light text-2xl text-gray-500 shadow-blue-200 rounded-md">
+                Consistently completes tasks early.
+Completes tasks while mindful of time demands and workloads of others</p>
+            <div class="user my-10 flex items-center justify-center w-full">
+                <img src="img/img2.jpg" width="70px" class="rounded-full" alt="">
+                <div class="ml-8 name">
+                    <p class="text-xl"> Jason Doe</p>
+                    <p class="font-light text-lg">User</p>
+                </div>
+            </div>
+        </div>
+        <div class="card w-1/3">
+            <p class="bg-white relative shadow-xl p-14 font-light text-2xl text-gray-500 shadow-blue-200 rounded-md">
+                Consistently completes all work by or before deadlines
+                Always makes the best use of this application to manage your time 
+            </p>
+            <div class="user my-10 flex items-center justify-center w-full">
+                <img src="img/img4.jpg" width="70px" class="rounded-full" alt="">
+                <div class="ml-8 name">
+                    <p class="text-xl"> Jason Doe</p>
+                    <p class="font-light text-lg">User</p>
+                </div>
+            </div>
+        </div>
+      
+    </div>
+</div>
+
+<div class="maps w-full flex px-32 h-[55rem]  py-20">
+    <div class=" w-1/2 h-full"> <iframe class="h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59382.63236443921!2d70.39641001969014!3d21.530641036816586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3958018c6a277f53%3A0x13b52f8520a86e48!2sJunagadh%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1698294080639!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    <div class="py-16 px-16 w-1/2">
+            <p class="text-xl mb-2">Contact us</p>
+            <p class="text-xl font-light">Contact us if you have any questions and we will contact you. We appreciate user feedback and be sure to take into account your wishes.</p>
+            <form class="py-6" action="#">
+                <input type="email" placeholder="Email Address" class="p-4 text-2xl font-light outline-none rounded-lg border-blue-200 border w-full shadow-sm focus:border-blue-500 focus:shadow-blue-500" name="" id="">
+                <div class="flex my-6 space-x-2">
+                    <input type="text" placeholder="Name" class="shadow-sm focus:border-blue-500 focus:shadow-blue-500 p-4 text-2xl font-light outline-none rounded-lg border-blue-200 border w-full" name="" id="">
+                    <input type="text" placeholder="Your Phone" class="shadow-sm focus:border-blue-500 focus:shadow-blue-500 p-4 text-2xl font-light outline-none rounded-lg border-blue-200 border w-full" name="" id="">
+                </div>
+                <textarea placeholder="Message" class="shadow-sm focus:border-blue-500 focus:shadow-blue-500 p-4 text-2xl font-light outline-none rounded-lg border-blue-200 border w-full" name="" id="" cols="30" rows="5"></textarea>
+                <input type="button" class="w-full rounded-md bg-blue-500 text-white px-6 py-3 mt-4 text-lg font-semibold hover:bg-white hover:text-blue-600 hover:border-2 hover:border-blue-500"  value="Send">
+            </form>
+    </div>
+</div>
+
+<div class="footer">
+    <p class="text-xl text-center pb-3">© Copyright 2018 Mobirise - All Rights Reserved</p>
+</div>
+<script
+defer
+src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+crossorigin=""
+></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>  
+</body>
+</html>
